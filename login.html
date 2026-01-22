@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ella's Food Blog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="logo">
+        <img src="Cheerful Logo with Fork and Spatula Icon.png" alt="Food Blog Logo">
+      </div>
+      <nav>
+        <ul>
+         <li><a href="index.html">Home</a></li>
+          <li><a href="recipe.html">Recipes</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+      <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search foods and recipes...">
+        <button id="searchButton">Search</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="background"></div>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Login</button>
+    </form>
+    <p id="error-message" class="error"></p>
+  </div>
+  
+  <footer>
+    <p>&copy; 2026 Ella's Food Blog. All rights reserved.</p>
+  </footer>
+  <script src="5.js"></script>
+</body>
+</html>
